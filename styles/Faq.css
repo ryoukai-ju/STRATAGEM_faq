@@ -4,10 +4,8 @@
   box-sizing: border-box;
 }
 
-
 body {
-  font-family: Arial, sans-serif;
-  background-image: url("/image/bg2.png");
+  background-image: url("/image/bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -25,7 +23,7 @@ h1 {
   text-align: center;
   margin: 40px 0;
   letter-spacing: 4px;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 main{
@@ -59,7 +57,6 @@ h3 {
   width: 100%;
   color: white;
   border: 1px solid #427A78;
-  
   background-color: rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(0.1px);
   border-radius: 8px;
@@ -70,7 +67,7 @@ h3 {
   margin-bottom:  0px;
 }
 .faq-box-question {
-  margin: 20px 20px;
+  margin: 20px;
   display: grid;
   grid-template-columns: 1fr 30px;
   align-items:center;
@@ -184,16 +181,12 @@ footer {
     max-width: 475px;
   }
   h3 {
-    font-family: questionFont;
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .faq-box-answer p {
-    font-size: 14px;
+    font-size: 16px;
   }
   h1 {
-    letter-spacing: 5px;
     font-size: 26px;
   }
 }
@@ -202,15 +195,6 @@ footer {
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
-  }
-  h3 {
-    font-family: questionFont;
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-size: 22px;
-  }
-  .faq-box-answer p {
-    font-size: 16px;
   }
   h1 {
     font-size: 28px;
@@ -226,10 +210,7 @@ footer {
     max-width: 768px;
   }
   h3 {
-    font-family: questionFont;
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-size: 24px;
+    font-size: 20px;
   }
   .faq-box-answer p {
     font-size: 18px;
@@ -259,10 +240,10 @@ footer {
     max-width: 1280px;
   }
   h3 {
-    font-size: 26px;
+    font-size: 24px;
   }
   .faq-box-answer p {
-    font-size: 18px;
+    font-size: 20px;
   }
   h1 {
     letter-spacing: 6px;
@@ -273,10 +254,11 @@ footer {
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
-  }
-  .container {
     margin-left: 10vw;
     margin-right: 10vw;
+  }
+  .faq-box-answer p {
+    font-size: 22px;
   }
   .faq-box-container {
     row-gap: 1rem;
