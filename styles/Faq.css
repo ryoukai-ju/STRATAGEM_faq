@@ -96,7 +96,7 @@ h3 {
   width: 80%;
   height: 80%;
   border: 3px;
-  transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.5s;
 }
 .faq-box-icon::before{
   top: 0px;
@@ -111,7 +111,7 @@ h3 {
 .faq-box-answer{
   max-height: 0px;
   overflow: hidden;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.8s;
 }
 
 .faq-box-answer p {
@@ -121,7 +121,7 @@ h3 {
   word-wrap: normal;
   font-size: 12px;
   letter-spacing: 1px;
-  line-height: 26px;
+  line-height: 14px;
 }
 
 .main-content{
@@ -129,12 +129,13 @@ h3 {
 }
 
 .container {
-  margin: 0 10vw  20px;
+  margin: 0 10vw 20px 10vw;
 }
 
 footer {
   display: flex;
   justify-content: center;
+  margin: 0 10vw;
 }
 
 .footer-parent {
@@ -146,7 +147,7 @@ footer {
   max-height: clamp(150px, 20vh, 200px); 
   overflow: hidden; 
   padding: 1rem 0 1rem;
-  margin: 0 10vw;
+  /* margin: 0 10vw; */
 }
 
 .footer-container {
@@ -186,14 +187,13 @@ footer {
 @media (min-width: 475px) { 
   .container {
     max-width: 475px;
-    margin-left: 10vw;
-    margin-right: 10vw;
   }
   h3 {
     font-size: 18px;
   }
   .faq-box-answer p {
     font-size: 14px;
+    line-height: 16px;
   }
   h1 {
     font-size: 28px;
@@ -204,14 +204,13 @@ footer {
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
-    margin-left: 10vw;
-    margin-right: 10vw;
   }
   h1 {
     font-size: 30px;
   }
   .footer-container p {
     font-size: 8px;
+    line-height: 18px;
   }
 }
 
@@ -219,14 +218,13 @@ footer {
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
-    margin-left: 10vw;
-    margin-right: 10vw;
   }
   h3 {
     font-size: 20px;
   }
   .faq-box-answer p {
     font-size: 16px;
+    line-height: 20px;
   }
   h1 {
     font-size: 30px;
@@ -237,8 +235,6 @@ footer {
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
-    margin-left: 10vw;
-    margin-right: 10vw;
   }
   h1 {
     letter-spacing: 6px;
@@ -246,6 +242,7 @@ footer {
   }
   .footer-container p {
     font-size: 10px;
+    line-height: 22px;
   }
   h3 {
     font-size: 22px;
@@ -256,14 +253,13 @@ footer {
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    margin-left: 10vw;
-    margin-right: 10vw;
   }
   h3 {
     font-size: 24px;
   }
   .faq-box-answer p {
     font-size: 18px;
+    line-height: 26px;
   }
   h1 {
     letter-spacing: 6px;
@@ -275,14 +271,13 @@ footer {
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
-    margin-left: 10vw;
-    margin-right: 10vw;
   }
   footer {
     margin: 0 10vw;
   }
   .footer-container p {
     font-size: 12px;
+    max-width: 1536px;
   }
 }
 
@@ -303,4 +298,3 @@ footer {
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
-
