@@ -4,12 +4,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles/Faq.css" />
-  <title>FAQ</title>
+  <link rel="stylesheet" href="../FAQ STYLES/Header.css">
+  <link rel="stylesheet" href="../FAQ STYLES/Faq.css" />
+  <title>STRATAGEM faq</title>
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-content-container">
+        <a href="/" class="navbar-brand">
+          <span class="site-title">STRATAGEM</span>
+        </a>
+      </div>
+      <div class="hamburger" id="menuButton">☰</div>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Chatbot</a></li>
+        <li><a href="/">Champions</a></li>
+        <li><a href="/">Tier List</a></li>
+        <li><a href="/">Player Picks</a></li>
+
+        <li class="profile-dropdown">
+          <a href="#" id="profileButton">
+            <img src="./images/User.png" alt="profile">
+          </a>
+          <!-- Dropdown Menu -->
+          <div class="dropdown-menu">
+            <a href="/">FAQs</a>
+            <a href="/" style="color: red;">Log out</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="sidebar">
+
+      <div class="menu-bar">
+        <div class="sidebar-title"> <span> STRATAGEM </span> </div>
+        <button class="close-btn" id="closeButton">&times;</button>
+      </div>
+      <a href="">
+        <div class="user-profile">
+          <img src="./images/profile.png" alt="profile picture">
+      </a>
+      <h2> Ken Takakura </h2>
+
+    </div>
+    <div class="sidebar-content">
+      <a href="#">Home</a>
+      <a href="#">Talk with Ahri</a>
+      <a href="#">Champions</a>
+      <a href="#">Tier List</a>
+      <a href="#">Player Picks</a>
+      <a href="#">FAQs</a>
+      <a href="#" style="color: red;">Log Out</a>
+
+    </div>
+    </div>
+
+  </header>
+
+  </header>
   <main>
     <article class="container">
       <h1>Frequently <span class="nowrap">Asked Questions</span></h1>
@@ -141,7 +197,9 @@
       </div>
     </div>
   </footer>
-  <script src="/script/FAQ.js"></script>
+
+  <script src="../FAQ SCRIPTS/Header.js"></script>
+  <script src="../FAQ SCRIPTS/FAQ.js"></script>
 </body>
 
 </html>

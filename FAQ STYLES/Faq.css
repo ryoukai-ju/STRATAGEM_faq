@@ -5,7 +5,9 @@
 }
 
 body {
-  background-image: url("/image/bg.png");
+  margin-top: 3rem;
+  height: 100vh;
+  background-image: url("../FAQ\ IMAGES/bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -14,12 +16,14 @@ body {
 
 @font-face {
   font-family: questionFont;
-  src: url("/font/sk-concretica.ttf");
+  src: url("../FAQ\ FONTS/sk-concretica.ttf");
 }
 @font-face {
   font-family: answerFont;
-  src: url("/font/NeueMontreal-Regular.otf");
+  src: url("../FAQ\ FONTS/NeueMontreal-Regular.otf");
 }
+
+
 
 h1 {
   font-family: questionFont;
@@ -129,13 +133,14 @@ h3 {
 }
 
 .container {
-  margin: 0 10vw 20px 10vw;
+  margin: 0 10vw 1rem 10vw;
 }
 
 footer {
   display: flex;
   justify-content: center;
   margin: 0 10vw;
+  position:sticky;
 }
 
 .footer-parent {
@@ -228,6 +233,9 @@ footer {
   }
   h1 {
     font-size: 30px;
+  }
+  .container {
+    margin: 0 10vw 5rem 10vw;
   }
 }
 
