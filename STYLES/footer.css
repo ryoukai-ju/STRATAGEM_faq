@@ -27,7 +27,7 @@
 .footer-container p {
   position: relative; 
   color: white;
-  font-family: footerFont;
+  font-family: footerFont; /* font change from armanta to neue*/
   font-size: clamp(0.3rem, 1.2vw + 0.1rem, 0.6rem);
   line-height: 1.5;
   /* max-width: 800px;  */
