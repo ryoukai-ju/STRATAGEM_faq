@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'MANATA';
-    src: url(../FAQ\ FONTS/Moonbandit\ -\ MBF\ Manta\ Regular.otf);
+    src: url(../FONTS/Moonbandit\ -\ MBF\ Manta\ Regular.otf);
 }
 
 
@@ -36,8 +36,7 @@ body {
     overflow-x: hidden;
     pointer-events: none; 
   }
-  
- 
+
   #sidebar.active {
     opacity: 1;
     pointer-events: auto; 

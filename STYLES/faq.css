@@ -7,7 +7,7 @@
 body {
   min-height: 100vh;
   margin-top: 3rem;
-  background-image: url("../FAQ\ IMAGES/bg.png");
+  background-image: url("../IMAGES/bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -16,11 +16,11 @@ body {
 
 @font-face {
   font-family: questionFont;
-  src: url("../FAQ\ FONTS/sk-concretica.ttf");
+  src: url("../FONTS/sk-concretica.ttf");
 }
 @font-face {
   font-family: answerFont;
-  src: url("../FAQ\ FONTS/NeueMontreal-Regular.otf");
+  src: url("../FONTS/NeueMontreal-Regular.otf");
 }
 
 
