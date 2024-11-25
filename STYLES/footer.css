@@ -9,8 +9,7 @@
 }
 
 .footer-container {
-  /* max-width: 1200px;  */
-  /* margin: 0 10vw 0 10vw; */
+  /* max-width: 1200px; */
   width: 100%; 
   display: flex;
   flex-wrap: wrap;
